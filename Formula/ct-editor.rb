@@ -14,6 +14,8 @@ class CtEditor < Formula
 
   def install
     system "cargo", "install", *std_cargo_args
+    # Symbol für die App, die der DS-Launcher unter Programme anlegt.
+    (share/"ct-editor").install "assets/icons/ct-editor-256.png" => "icon.png"
   end
 
   test do

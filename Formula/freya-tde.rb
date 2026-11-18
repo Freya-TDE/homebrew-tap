@@ -1,8 +1,8 @@
 class FreyaTde < Formula
   desc "Visual development environment for Rust (RAD, Delphi/Lazarus style)"
   homepage "https://github.com/Freya-TDE/Freya-TDE"
-  url "https://github.com/Freya-TDE/Freya-TDE/releases/download/v0.1.1/freya-tde-0.1.1-macos-aarch64.tar.gz"
-  sha256 "b27d6d8bd96fbe548415ff69ba723f1a546a13eab16ded129f6e3c895954af7e"
+  url "https://github.com/Freya-TDE/Freya-TDE/releases/download/v0.1.2/freya-tde-0.1.2-macos-aarch64.tar.gz"
+  sha256 "f43cbc2fd8a1753bd8b7725631c12a041961afc27d97a6752ad75d3a0fcdc78f"
   license any_of: ["MIT", "Apache-2.0"]
 
   # brew style sortiert alphabetisch, „arch“ zählt als Name.
@@ -15,7 +15,8 @@ class FreyaTde < Formula
 
   def install
     bin.install "bin/freya-tde", "bin/freya-tde-db"
-    (share/"freya-tde").install "share/freya-tde/components", "share/freya-tde/widgets"
+    (share/"freya-tde").install "share/freya-tde/components", "share/freya-tde/widgets",
+                                "share/freya-tde/icon.png"
     doc.install Dir["share/doc/freya-tde/*"]
   end
 

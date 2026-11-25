@@ -1,8 +1,8 @@
 class CtEditor < Formula
   desc "Visual editor for Cargo.toml files"
   homepage "https://github.com/Freya-TDE/CT-E"
-  url "https://github.com/Freya-TDE/CT-E/archive/refs/tags/v0.4.4.tar.gz"
-  sha256 "b04b438a15fb449fd232f2121a3c8c2dc310766bc9f731dd9a2300df4fce9802"
+  url "https://github.com/Freya-TDE/CT-E/archive/refs/tags/v0.4.5.tar.gz"
+  sha256 "65ba0ae0da1681a681e8f78dd16f7b15f31931d1067ec94a3749b2e96785edb0"
   license any_of: ["MIT", "Apache-2.0"]
   head "https://github.com/Freya-TDE/CT-E.git", branch: "main"
 

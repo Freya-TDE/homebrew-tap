@@ -1,8 +1,8 @@
 class FreyaTde < Formula
   desc "Visual development environment for Rust (RAD, Delphi/Lazarus style)"
   homepage "https://github.com/Freya-TDE/Freya-TDE"
-  url "https://github.com/Freya-TDE/Freya-TDE/releases/download/v0.1.6/freya-tde-0.1.6-macos-aarch64.tar.gz"
-  sha256 "1911a62ad39d808bed4ba6adc17c3169a764289489ea6b23defb81523bf576b4"
+  url "https://github.com/Freya-TDE/Freya-TDE/releases/download/v0.2.0/freya-tde-0.2.0-macos-aarch64.tar.gz"
+  sha256 "db27e5730707745aaa44106dc15df879558207d1426740c2317e78b36e8de622"
   license any_of: ["MIT", "Apache-2.0"]
 
   # brew style sortiert alphabetisch, „arch“ zählt als Name.

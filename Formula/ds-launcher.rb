@@ -1,9 +1,9 @@
 class DsLauncher < Formula
   desc "Installs and updates the programs of Dragon Software"
   homepage "https://catalog.dragon-software.net"
-  url "https://github.com/Dragon-InterActive/DS-Catalog/releases/download/ds-launcher-v0.3.8/ds-launcher-0.3.8-macos-aarch64.tar.gz"
-  version "0.3.8"
-  sha256 "2ce30beb4fc49d0587227a91a400ebf78f6cfdd586b9efa6ec6f34389bd94381"
+  url "https://github.com/Dragon-InterActive/DS-Catalog/releases/download/ds-launcher-v0.3.9/ds-launcher-0.3.9-macos-aarch64.tar.gz"
+  version "0.3.9"
+  sha256 "1ef30418c30a142024e19a894d4bb0199ba0dbcb94891e90e5f6fb2ba22e11ff"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
